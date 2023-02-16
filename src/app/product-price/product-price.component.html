@@ -1,0 +1,12 @@
+<div class="flex border justify-between p-5 mt-20 bg-gray-200 gap-10" *ngIf="selectedItem">
+    <div class="text-center">
+        <p class="text-sm">Mua ngay</p>
+        <p class="text-red-500 text-lg">
+            {{selectedItem.price}}
+        </p>
+    </div>
+    <div class="text-center">
+        <p class="text-sm">Trả trước từ</p>
+        <p class="text-red-500 text-lg">{{selectedItem.prePay}}</p>
+    </div>
+</div>
